@@ -19,5 +19,7 @@ The final script "flexct_continuous_rottrans_ndeg.py" is designed to perform an 
 
 # REFERENCES
 [1] J. Cant, et al., "Modeling blurring effects due to continuous gantry rotation: Application to region of interest tomography", Med. Phys. 42, 2709-2717 (2015)
+
 [2] B Huyge, et al., "X-ray image reconstruction for continuous acquisitions with a generalized motion model", Opt. Express, (Under review) (2024)
+
 [3] W. van Aarle, et al., “Fast and flexible X-ray tomography using the ASTRA toolbox”, Opt. Express 24, 25129–25147 (2016).
