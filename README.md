@@ -16,7 +16,7 @@ This data was measured with the FleXCT scanner [4] and comprises of a reference 
 These blurred projections can be averaged together to increase the blurring even more.
 Most of the settings needed for the reconstruction are automatically read from the acquisition file. Although, for the blurred dataset, this did not work properly and the settings needed to be specified manually.
 The projection geometries for 1, 2 and 4 averages are available in the folder "FleXCT_geometries".
-This folder contains the projection geometry to do the blurred reconstruction, the set of projection geometries (that need to be averaged) for the ARTIC reconstruction and the subsampled projection geometries fro the RACE reconstruction.
+This folder contains the projection geometry to do the blurred reconstruction, the set of projection geometries (that need to be averaged) for the ARTIC reconstruction and the subsampled projection geometries for the RACE reconstruction.
 
 
 # REFERENCES
