@@ -18,6 +18,8 @@ Most of the settings needed for the reconstruction are automatically read from t
 The projection geometries for 1, 2 and 4 averages are available in the folder "FleXCT_geometries".
 This folder contains the projection geometry to do the blurred reconstruction, the set of projection geometries (that need to be averaged) for the ARTIC reconstruction and the subsampled projection geometries for the RACE reconstruction.
 
+Additionally, the folder "ARTIC_original" contains the orignal MATLAB code used for ARTIC in [1].
+
 
 # REFERENCES
 [1] J. Cant, et al., "Modeling blurring effects due to continuous gantry rotation: Application to region of interest tomography", Med. Phys. 42, 2709-2717 (2015)
