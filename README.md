@@ -11,7 +11,7 @@ Finally, RACE is used and results in an even better reconstruction, especially f
 The script "continuous_combined motion.py" essentially does the same, however this time the motion of the object is not only rotational, but also translational.
 During the simulation the object shifts from left to right parallel to the detector. The folder "Phantoms" contains different phantoms to test the code with.
 
-The final script "flexct_continuous_rottrans_ndeg.py" is designed to perform an ARTIC and RACE reconstruction of the continuously acquired projections of the data set at: https://zenodo.org/records/12918504.
+The script "flexct_continuous_rottrans_ndeg.py" is designed to perform an ARTIC and RACE reconstruction of the continuously acquired projections of the data set at: https://zenodo.org/records/12918504.
 This data was measured with the FleXCT scanner [4] and comprises of a reference set of projections, that can be reconstructed into a reference image with negligible blurring, and a set of blurred projections.
 These blurred projections can be averaged together to increase the blurring even more.
 Most of the settings needed for the reconstruction are automatically read from the acquisition file. Although, for the blurred dataset, this did not work properly and the settings needed to be specified manually.
@@ -19,6 +19,11 @@ The projection geometries for 1, 2 and 4 averages are available in the folder "F
 This folder contains the projection geometry to do the blurred reconstruction, the set of projection geometries (that need to be averaged) for the ARTIC reconstruction and the subsampled projection geometries for the RACE reconstruction.
 
 Additionally, the folder "ARTIC_original" contains the orignal MATLAB code used for ARTIC in [1].
+
+Finally, the script "synchrotron_RACE.py" contains the code to apply ARTIC and RACE on data measured with a parallel beam geometry, such as synchrotron data.
+Here, the center of rotation (COR) is not yet fully implemented in a proper way (todo).
+
+Please cite [2], when using or adapting this code in  your own research.
 
 
 # REFERENCES
