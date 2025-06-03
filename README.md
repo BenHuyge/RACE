@@ -23,6 +23,8 @@ Additionally, the folder "ARTIC_original" contains the orignal MATLAB code used 
 Finally, the script "synchrotron_RACE.py" contains the code to apply ARTIC and RACE on data measured with a parallel beam geometry, such as synchrotron data.
 Here, the center of rotation (COR) is not yet fully implemented in a proper way (todo).
 
+To run the code, the imsolve package is required, which can be found at: https://github.com/RendersJens/imsolve/tree/main
+
 Please cite [2], when using or adapting this code in  your own research.
 
 
